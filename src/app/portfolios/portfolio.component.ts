@@ -1,8 +1,8 @@
 import {Component} from '@angular/core';
 
-
+let template = './portfolio.component.html';
 @Component({
-  template: require('./portfolio.component.html')
+    templateUrl:template
 })
 
 export class PortfolioComponent {
