@@ -1,11 +1,9 @@
 import {Component, Input} from '@angular/core';
 import {trigger, state, animate, style, transition} from '@angular/core';
 
-let template="./home.component.html";
-
 @Component({
   selector: 'hero-list-basic',
-  templateUrl:template,
+  template:require("./home.component.html"),
   animations: [
      trigger('heroState', [
        state('inactive', style({transform: 'translateX(0) scale(1)'})),

@@ -1,8 +1,8 @@
 import {Component} from '@angular/core';
 
-let template = './contactus.component.html';
+
 @Component({
-  templateUrl:template
+  template: require('./contactus.component.html')
 })
 
 export class ContactUsComponent {
