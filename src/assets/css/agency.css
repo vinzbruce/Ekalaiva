@@ -154,6 +154,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-brand {
   color: black;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-size: 2.5em;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
